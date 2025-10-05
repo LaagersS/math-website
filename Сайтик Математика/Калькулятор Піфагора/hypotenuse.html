@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Розрахунок гіпотенузи</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Введіть довжини катетів:</h1>
+        <label for="catet_1">Довжина першого катета:</label>
+        <input type="text" id="catet_1">
+        <br><br>
+        <label for="catet_2">Довжина другого катета:</label>
+        <input type="text" id="catet_2">
+        <br><br>
+        <button type="button" onclick="calculate_hypotenuse()" style="font-family: URW Chancery L, cursive">РОЗРАХУВАТИ</button>
+        <br><br>
+        <div id="result"></div>
+    </div>
+</body>
+
+<script src="calculate_hypotenuse.js"></script>
+<script src="../back.js"></script>
+
+</html>

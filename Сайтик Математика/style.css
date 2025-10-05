@@ -1,0 +1,68 @@
+body {
+   font-family: URW Chancery L, cursive;
+   background-image: url(background.jpg);
+   background-size: cover;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+ 
+.container {
+   text-align: center;
+   background-color: #fff;
+   padding: 40px;
+   border-radius: 10px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.button_1 {
+   background-color: #012f91;
+}
+
+.button_1:hover {
+   background-color: #001542;
+}
+
+.button_2 {
+   background-color: #ff0000;
+}
+
+.button_2:hover {
+   background-color: #8c0101;
+}
+
+.button_3 {
+   background-color: #f5bd05;
+}
+
+.button_3:hover {
+   background-color: #826401;
+}
+
+.button_4 {
+   background-color: #047d00;
+}
+
+.button_4:hover {
+   background-color: #033b01;
+}
+
+.button_5 {
+   background-color: #3a3a3b;
+}
+
+.button_5:hover {
+   background-color: #000003;
+}
+
+.button_1, .button_2, .button_3, .button_4, .button_5 {
+   padding: 10px;
+   margin-top: 10px;
+   cursor: pointer;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+}

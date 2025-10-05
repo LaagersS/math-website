@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Калькулятор простих операцій</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Введіть числа:</h1>
+      <label for="a">Введіть число а:</label>
+      <input type="text" id="a">
+      <br><br>
+      <label for="b">Введіть число b:</label>
+      <input type="text" id="b">
+      <br><br>
+      <button type="button" onclick="calculate_plus()" style="font-family: URW Chancery L, cursive">+</button>
+      <button type="button" onclick="calculate_minus()" style="font-family: URW Chancery L, cursive">-</button>
+      <button type="button" onclick="calculate_multiplication()" style="font-family: URW Chancery L, cursive">*</button>
+      <button type="button" onclick="calculate_division()" style="font-family: URW Chancery L, cursive">/</button>
+      <button type="button" onclick="calculate_root_a()" style="font-family: URW Chancery L, cursive">√a</button>
+      <button type="button" onclick="calculate_root_b()" style="font-family: URW Chancery L, cursive">√b</button>
+      <button type="button" onclick="calculate_degree()" style="font-family: URW Chancery L, cursive">aᵇ</button>
+      <button type="button" onclick="calculate_factorial_a()" style="font-family: URW Chancery L, cursive">a!</button>
+      <button type="button" onclick="calculate_factorial_b()" style="font-family: URW Chancery L, cursive">b!</button>
+      <br>
+      <button type="button" onclick="compare()" style="font-family: URW Chancery L, cursive; width: 310px">ПОРІВНЯТИ</button>
+      <br><br>
+    <div id="result"></div>
+  </div>
+</body>
+
+<script src="main.js"></script>
+<script src="../back.js"></script>
+
+</html>
